@@ -1,0 +1,1395 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>THE MAKE-UP ROUTINE</title>
+    <!--BOOTSTRAP CDN-->
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+      integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+      crossorigin="anonymous"
+    />
+    <!--MAGENTO ENVIRONMENT-->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://www.mrp.com/media/customcss/762d8eafaa20cfb611f8ee3b4629f979.css?v=775057bf0d"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://www.mrp.com/media/customcss/67a207a346946b7ee969617a65679352.css?v=99d1dd7719"
+    />
+    <script src="https://code.jquery.com/jquery-2.2.0.min.js"type="text/javascript"
+    ></script>
+
+  
+  </head>
+
+  <body>
+
+
+<link href="https://www.mrp.com/cdn/01/assets/resources/slick/css/slick.css" rel="stylesheet" type="text/css" />
+ <link href="https://www.mrp.com/cdn/01/assets/resources/slick/css/slick-theme.css" rel="stylesheet" type="text/css" />
+  <!-- <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/buttons.css"> -->
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,700;0,900;1,400;1,500;1,900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.typekit.net/edm3ztu.css">
+
+<style>
+:root {
+	--color-one: #d6000f;
+	--color-two: #de6672;
+	--color-three: #fdc9c9;
+}
+ header#header {
+    margin-left: -15px;
+} 
+.vaimo-cms>[class*=col-] {
+    padding-right: 0;
+    padding-left: 0;
+}
+.LandingPageContent {
+	text-align: center;
+	margin-top: 0;
+	margin-bottom: 0;
+	background: rgba(252, 212, 210, 0.5);
+	overflow: hidden;
+}
+.LandingPageContent img {
+	width: 100%;
+	position: relative;
+}
+
+.LandingPageContent .hoverWrapper {
+	margin: auto;
+	position: absolute;
+	left: 0%;
+	right: 0;
+	top: 50%;
+	transform: translate(0, -50%);
+	text-align: center;
+}
+.LandingPageContent p {
+	font-family: Inter;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 1.1vw;
+	line-height: 128.1%;
+	text-align: center;
+	color: var(--color-one);
+}
+
+.LandingPageContent .btn.mrp-btn-white-bdr {
+	font-family: Inter;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 17px;
+	align-items: center;
+	text-align: center;
+	text-transform: uppercase;
+	color: var(--color-one);
+	background-color: transparent;
+	border: 1px solid var(--color-one);
+	box-sizing: border-box;
+}
+.LandingPageContent .btn.mrp-btn-white-bdr:hover {
+	color: #fff;
+	background-color: var(--color-one);
+}
+.LandingPageContent #Top {
+	position: relative;
+}
+.LandingPageContent #Top .hoverWrapper {
+	width: 38%;
+}
+
+.LandingPageContent #Top .hoverWrapper h1 {
+	font-family: Playfair Display;
+	font-style: normal;
+	font-weight: 900;
+	font-size: 4.2vw;
+	line-height: 4.5vw;
+	text-align: center;
+	letter-spacing: 0.852502px;
+	text-decoration-line: underline;
+	text-transform: lowercase;
+	color: var(--color-one);
+}
+
+.LandingPageContent #Top .hoverWrapper p {
+	font-family: Inter;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 1.1vw;
+	line-height: 128.1%;
+	text-align: center;
+	color: var(--color-one);
+	margin: 2rem auto;
+}
+.LandingPageContent #Top .hoverWrapper p span {
+	font-weight: 700;
+}
+
+.LandingPageContent section#Middle {
+	position: relative;
+}
+.LandingPageContent section#Middle .hoverWrapper.one {
+	margin: auto;
+	position: absolute;
+	left: 0%;
+	right: 0;
+	top: 7%;
+	transform: translate(0, -50%);
+	text-align: center;
+	width: 60%;
+}
+.LandingPageContent .Cta {
+	font-family: Manrope;
+	font-style: normal;
+	font-weight: bold;
+	font-size: .8vw;
+	align-items: center;
+	text-align: center;
+	color: var(--color-one);
+	background: var(--color-three);
+	padding: 0.5vw;
+	display: inherit;
+}
+
+.LandingPageContent .Cta:hover {
+	color: var(--color-three);
+	background: var(--color-one);
+	text-decoration: none;
+}
+
+.LandingPageContent img.ArrPrev.slick-arrow {
+	position: absolute;
+	bottom: 0;
+	bottom: 50%;
+	transform: translateY(50%);
+	left: -3%;
+	z-index: 9;
+	cursor: pointer;
+	max-width: 2.5rem;
+}
+.LandingPageContent img.ArrNext.slick-arrow {
+	position: absolute;
+	bottom: 0;
+	bottom: 50%;
+	transform: translateY(50%);
+	right: -3%;
+	z-index: 9;
+	max-width: 2.5rem;
+	cursor: pointer;
+}
+.LandingPageContent section#bottom h2,
+.LandingPageContent section#Middle h2 {
+	font-family: Manrope;
+	font-style: normal;
+	font-weight: bold;
+	text-decoration-line: underline;
+	text-transform: lowercase;
+	color: var(--color-one);
+}
+.LandingPageContent section#Middle p {
+	font-family: Inter;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 1.1vw;
+	line-height: 1.4;
+	letter-spacing: 0.01em;
+	color: var(--color-two);
+	text-align: left;
+	margin-top: 1.5vw;
+	width: 80%;
+}
+
+.LandingPageContent section#Middle .hoverWrapper.two {
+	margin: auto;
+	position: absolute;
+	left: 4%;
+	right: 0;
+	top: 20.5%;
+	transform: translate(0, -50%);
+	text-align: left;
+	width: 57%;
+}
+.LandingPageContent section#Middle .hoverWrapper.two h2 {
+	font-size: 4.25vw;
+	line-height: 1.2;
+}
+/* .LandingPageContent section#Middle .hoverWrapper.two p {
+	font-family: Inter;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 22px;
+	line-height: 26px;
+	letter-spacing: 0.01em;
+	color:var(--color-two)
+	text-align: left;
+	margin-top: 4rem;
+	width: 80%;
+} */
+.LandingPageContent section#Middle .hoverWrapper.three {
+	left: 4%;
+	top: 35%;
+	text-align: left;
+	width: 57%;
+}
+.LandingPageContent section#Middle .hoverWrapper.three h2 {
+	font-size: 4.25vw;
+	line-height: 1.2;
+}
+/* .LandingPageContent section#Middle .hoverWrapper.three p {
+	font-family: Inter;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 22px;
+	line-height: 26px;
+	letter-spacing: 0.01em;
+	color:var(--color-two)
+	text-align: left;
+	margin-top: 4rem;
+	width: 80%;
+} */
+.LandingPageContent section#Middle .hoverWrapper.three .btn.mrp-btn-white-bdr {
+	margin-top: 1vw;
+}
+.LandingPageContent section#Middle .hoverWrapper.four {
+	left: 57%;
+	top: 61%;
+	text-align: left;
+	width: 30%;
+}
+.LandingPageContent section#Middle .hoverWrapper.five {
+    left: -32%;
+    top: 84vw;
+    text-align: right;
+    width: 50%;
+}
+.LandingPageContent section#Middle .hoverWrapper.five h2 {
+	text-align: right;
+	font-size: 6.49vw;
+	line-height: 1.2;
+}
+.LandingPageContent section#Middle .hoverWrapper.five p {
+	text-align: right;
+	display: inline-block;
+}
+.LandingPageContent section#Middle .hoverWrapper.five p span {
+	font-weight: 700;
+}
+.LandingPageContent section#Middle .hoverWrapper.five blockquote {
+	border-left: none;
+	quotes: "\201C""\201D""\2018""\2019";
+	width: 100%;
+	padding: 0;
+	font-size: inherit;
+}
+
+.LandingPageContent section#Middle .hoverWrapper.five blockquote:before {
+	    color: var(--color-one);
+    content: open-quote;
+    font-family: Playfair Display;
+    font-size: 12vw;
+    line-height: 0px;
+    display: block;
+    margin-bottom: 0%;
+}
+.LandingPageContent section#Middle .hoverWrapper.five blockquote:after {
+	    color: var(--color-one);
+    content: close-quote;
+    font-size: 12vw;
+    font-family: Playfair Display;
+    line-height: 17.5vw;
+    display: block;
+    margin-top: -4rem;
+}
+
+.LandingPageContent section#Middle .hoverWrapper.six {
+	left: 0%;
+	right: 0;
+	top: 91.3%;
+	transform: translate(0, -50%);
+	width: 60%;
+	z-index: 9;
+}
+.LandingPageContent section#Middle .hoverWrapper.six .Cta {
+	font-size: .7vw;
+}
+.LandingPageContent section#Middle .hoverWrapper.six p {
+	font-family: Inter;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 1.1vw;
+	display: inline-block;
+	text-align: center;
+	letter-spacing: 0.03em;
+	color: var(--color-one);
+}
+.LandingPageContent section#Middle .hoverWrapper.six p span {
+	font-weight: 700;
+}
+.LandingPageContent section#Middle-to-bottom {
+	position: relative;
+}
+.LandingPageContent section#Middle-to-bottom .hoverWrapper.one {
+	left: 0%;
+	right: 0;
+	top: 43%;
+	transform: translate(0, -50%);
+}
+.LandingPageContent section#bottom {
+	position: relative;
+	background-color: #fecfd0;
+	padding-bottom: 5rem;
+}
+.LandingPageContent section#bottom .hoverWrapper.one {
+	left: -4%;
+	right: 0;
+	top: 43%;
+	transform: translate(0, -50%);
+}
+.LandingPageContent section#bottom h2 {
+	font-family: Playfair Display;
+	font-style: normal;
+	font-weight: 900;
+	font-size: 4vw;
+	line-height: 1.2;
+	text-align: center;
+	text-decoration-line: underline;
+	text-transform: lowercase;
+	color: var(--color-one);
+}
+.LandingPageContent section#bottom .hoverWrapper.one p {
+	margin-top: 2rem;
+	font-size: 1.2vw;
+	width: 100%;
+}
+.LandingPageContent section#bottom ol {
+	display: block;
+	list-style-type: decimal;
+	margin-block-start: 0;
+	margin-block-end: 0;
+	margin-inline-start: 0px;
+	margin-inline-end: 0px;
+	padding-inline-start: 0;
+}
+
+.LandingPageContent section#bottom ol li {
+	list-style: none;
+	color: var(--color-one);
+	font-family: Inter;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 0.9vw;
+	line-height: 1.2;
+	color: #de6672;
+}
+.LandingPageContent section#bottom h4 {
+	font-family: Inter;
+	font-style: normal;
+	font-weight: 900;
+	font-size: 1.4vw;
+	line-height: 1.2;
+	text-align: center;
+	color: var(--color-one);
+}
+.LandingPageContent section#bottom p {
+	font-family: Inter;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 0.9vw;
+	line-height: 1.2;
+	text-align: center;
+	/* width: 60%; */
+	margin: 0 auto;
+}
+.ui-widget {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 1em;
+	text-align: left;
+	width: 90%;
+	margin: 0 auto !important;
+	color: var(--color-one);
+}
+
+.ui-accordion .ui-accordion-header {
+	color: var(--color-one);
+	font-family: Inter;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 0.9vw !important;
+	line-height: 1.2;
+	border-bottom: 1px solid var(--color-one) !important;
+	border-radius: 0 !important;
+}
+
+.LandingPageContent section#bottom .border-right {
+	border-right: 1px solid #fdc4c4;
+}
+
+.ui-state-default,
+.ui-widget-content .ui-state-default,
+.ui-widget-header .ui-state-default,
+.ui-button,
+html .ui-button.ui-state-disabled:hover,
+html .ui-button.ui-state-disabled:active {
+	background: transparent !important;
+	border: none !important;
+	outline: none !important;
+}
+
+.ui-state-default,
+.ui-widget-content .ui-state-default,
+.ui-widget-header .ui-state-default,
+.ui-button,
+html .ui-button.ui-state-disabled:hover,
+html .ui-button.ui-state-disabled:focus {
+	background: transparent !important;
+	border: none !important;
+	outline: none !important;
+}
+
+.ui-state-active,
+.ui-widget-content .ui-state-active,
+.ui-widget-header .ui-state-active,
+a.ui-button:active,
+.ui-button:active,
+.ui-button.ui-state-active:hover {
+	background: transparent !important;
+	border: none !important;
+	outline: none !important;
+}
+
+.ui-state-active,
+.ui-widget-content .ui-state-active,
+.ui-widget-header .ui-state-active,
+a.ui-button:active,
+.ui-button:active,
+.ui-button.ui-state-active:active {
+	background: transparent !important;
+	border: none !important;
+	outline: none !important;
+}
+
+.ui-widget-content {
+	border-bottom: 1px solid white !important;
+	background: transparent !important;
+	border: none !important;
+	outline: none !important;
+}
+.ui-icon,
+.ui-widget-content .ui-icon,
+.ui-state-active .ui-icon,
+.ui-button:active .ui-icon {
+	background-image: url(https://www.mrp.com/media/wysiwyg/2020wk29/inspo/ui-icons_444444_256x240.png) !important;
+}
+.ui-icon:hover,
+.ui-widget-content .ui-icon:hover .ui-state-active .ui-icon:hover,
+.ui-button:active .ui-icon:hover {
+	background-image: url(https://www.mrp.com/media/wysiwyg/2020wk29/inspo/ui-icons_ffffff_256x240.png) !important;
+}
+/* .LandingPageContent section#Middle .hoverWrapper.one {
+	margin: auto;
+	position: absolute;
+	left: 0%;
+	right: 0;
+	top: 15%;
+	transform: translate(0, -50%);
+	text-align: center;
+	width: 60%;
+} */
+@media (max-width: 991px) {
+.LandingPageContent img.ArrPrev.slick-arrow,
+.LandingPageContent img.ArrNext.slick-arrow {
+    max-width: 1.5rem;
+}
+}
+
+
+
+@media (max-width: 767px) {
+	.LandingPageContent section#Middle .hoverWrapper {
+		left: 0%;
+		top: 7%;
+		width: 79%;
+	}
+	.LandingPageContent section#Middle .hoverWrapper h1 {
+		font-family: Playfair Display;
+		font-style: normal;
+		font-weight: 900;
+		font-size: 7vw;
+		line-height: 1.2;
+		text-align: center;
+		letter-spacing: 0.852502px;
+		text-decoration-line: underline;
+		text-transform: lowercase;
+		color: var(--color-one);
+	}
+
+	.LandingPageContent section#Middle p {
+		font-family: Inter;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 4.1vw;
+		line-height: 1.4;
+		letter-spacing: 0.01em;
+		color: var(--color-two);
+		text-align: center;
+		width: 100%;
+		margin: 2rem auto;
+	}
+	.LandingPageContent section#Middle .hoverWrapper.one {
+		left: 0%;
+		top: 19%;
+		transform: translate(0, -50%);
+		text-align: center;
+		width: 60%;
+	}
+
+	.LandingPageContent section#Middle .hoverWrapper.two {
+		left: 0%;
+		top: 31.5%;
+		text-align: center;
+		width: 83%;
+	}
+	.LandingPageContent section#Middle .hoverWrapper.two h2 {
+		font-size: 8.25vw;
+		line-height: 1.2;
+	}
+	.LandingPageContent section#Middle .hoverWrapper.six .Cta {
+		font-size: 3vw;
+		padding: 1.5vw;
+	}
+	.LandingPageContent .Cta {
+		font-size: 3.8vw;
+		padding: 1.5vw;
+	}
+	.LandingPageContent img.ArrPrev.slick-arrow {
+		left: -11%;
+	}
+	.LandingPageContent img.ArrNext.slick-arrow {
+		right: -11%;
+	}
+
+	.LandingPageContent section#Middle .hoverWrapper.three {
+		left: 0%;
+		top: 46.8%;
+		text-align: left;
+		width: 85%;
+	}
+	.LandingPageContent section#Middle .hoverWrapper.three h2 {
+		font-size: 7.9vw;
+		line-height: 1.2;
+		margin-left: 3%;
+		margin-top: 1rem;
+	}
+	.LandingPageContent .btn.mrp-btn-white-bdr {
+		width: 100%;
+	}
+	.LandingPageContent section#Middle .hoverWrapper.four {
+		left: 38%;
+		top: 67%;
+		text-align: left;
+		width: 46%;
+	}
+	.LandingPageContent section#Middle .hoverWrapper.three .btn.mrp-btn-white-bdr {
+		margin-top: 0rem;
+	}
+	.LandingPageContent section#Middle .hoverWrapper.five h2 {
+		text-align: left;
+		font-size: 8.2vw;
+		line-height: 1.2;
+		width: 86%;
+		margin-top: 4rem;
+	}
+	.LandingPageContent section#Middle .hoverWrapper.five {
+		left: 0;
+		top: 76.5%;
+		text-align: right;
+		width: 80%;
+	}
+	.LandingPageContent section#Middle .hoverWrapper.five p {
+		text-align: center;
+		display: inline-block;
+	}
+
+	.LandingPageContent section#Middle .hoverWrapper.six {
+		left: 0%;
+		top: 92%;
+		width: 60%;
+	}
+
+	.LandingPageContent section#Middle .hoverWrapper.six p {
+		font-size: 3.4vw;
+	}
+
+	.LandingPageContent section#bottom .hoverWrapper.one {
+		left: 0;
+		right: 0;
+		top: 54%;
+	}
+
+	.LandingPageContent section#bottom h2 {
+		font-size: 8vw;
+		width: 80%;
+		margin: 0 auto;
+	}
+	.LandingPageContent section#bottom .hoverWrapper.one p {
+		font-size: 4.1vw;
+		width: 87%;
+	}
+
+	.LandingPageContent section#bottom h4 {
+		font-size: 5.4vw;
+	}
+	.LandingPageContent section#bottom .border-right {
+		border-right: none;
+	}
+
+	.LandingPageContent section#bottom p {
+		font-size: 4.1vw;
+		width: 79%;
+		margin: 0 auto;
+	}
+	.ui-accordion .ui-accordion-header {
+		font-size: 4.9vw !important;
+	}
+
+	.LandingPageContent section#bottom ol li {
+		font-size: 3.5vw;
+	}
+
+	.ui-widget {
+		margin: 2rem auto !important;
+	}
+}
+@media (min-width: 2200px) {
+
+    .genderPageContent .mrp-btn-black,
+    .genderPageContent .mrp-btn-white,
+    .genderPageContent .mrp-btn-black-bdr,
+    .genderPageContent .mrp-btn-white-bdr {
+        height: 45px !important;
+        width: 200px !important;
+        padding: 10px 0 !important;
+        font-size: 16px !important;
+    }
+}
+
+@media (max-width: 2200px) {
+
+    .genderPageContent .mrp-btn-black,
+    .genderPageContent .mrp-btn-white,
+    .genderPageContent .mrp-btn-black-bdr,
+    .genderPageContent .mrp-btn-white-bdr {
+        height: 45px !important;
+        width: 200px !important;
+        padding: 10px 0 !important;
+        font-size: 16px !important;
+    }
+}
+
+@media (max-width: 1920px) {
+
+    .genderPageContent .mrp-btn-black,
+    .genderPageContent .mrp-btn-white,
+    .genderPageContent .mrp-btn-black-bdr,
+    .genderPageContent .mrp-btn-white-bdr {
+        height: 40px !important;
+        width: 175px !important;
+        padding: 9px 0 !important;
+        font-size: 14px !important;
+    }
+}
+
+@media (max-width: 1600px) {
+
+    .genderPageContent .mrp-btn-black,
+    .genderPageContent .mrp-btn-white,
+    .genderPageContent .mrp-btn-black-bdr,
+    .genderPageContent .mrp-btn-white-bdr {
+        height: 35px !important;
+        width: 155px !important;
+        padding: 6px 0 !important;
+        font-size: 14px !important;
+    }
+}
+
+
+@media (max-width: 990px) {
+
+    .genderPageContent .mrp-btn-black,
+    .genderPageContent .mrp-btn-white,
+    .genderPageContent .mrp-btn-black-bdr,
+    .genderPageContent .mrp-btn-white-bdr {
+        height: 30px !important;
+        width: 130px !important;
+        padding: 6px 0 !important;
+        font-size: 12px !important;
+    }
+}
+
+@media (max-width: 767px) {
+
+    .genderPageContent .mrp-btn-black,
+    .genderPageContent .mrp-btn-white,
+    .genderPageContent .mrp-btn-black-bdr,
+    .genderPageContent .mrp-btn-white-bdr {
+        width: 80% !important;
+        color: #fff;
+        font-size: 14px !important;
+        padding: 14px 0 !important;
+        height: auto !important;
+    }
+}
+
+</style>
+
+<div id="Home" class="LandingPageContent">
+
+<section id="Top">
+  <a href="#bottom" data-gtm-event="Campaign" data-gtm-action="Landing Page" 
+  data-gtm-label="01_2020wk30_l_sh_ScarletHillBeauty">
+   <img class="hidden-xs" alt="" src="https://www.mrp.com/cdn/01/gender/2020/wk27/img/SB_img_1.jpg" /> 
+   <img class="visible-xs" alt="" src="https://www.mrp.com/media/wysiwyg/2020wk29/inspo/SB_img_1_.jpg" /> </a>
+<div class="hoverWrapper hidden-xs">
+<h1>Scarlet Hill is
+expanding to more stores,
+baby!</h1>
+<p>That’s right! Our first-ever beauty brand, Scarlet Hill, is now available in more MRP stores across SA.<span> Hit the link to see where you can shop for beauty and
+extras.</span>
+</p>
+<a class="btn mrp-btn-white-bdr" href="#bottom" 
+data-gtm-event="Campaign" data-gtm-action="Landing Page" data-gtm-label="01_2020wk30_l_sh_ScarletHillBeauty">Show me </a>
+
+</div>
+</section>
+
+
+<section id="Middle">
+<div class="row">
+  <div class="col-xs-12">
+<img class="img hidden-xs" alt=""  src="https://www.mrp.com/media/wysiwyg/2020wk29/inspo/bg1.png" />
+<img class="img  visible-xs" alt="" src="https://www.mrp.com/media/wysiwyg/2020wk29/inspo/bg1_.png" />
+<div class="hoverWrapper visible-xs">
+  <h1>Scarlet Hill is
+  expanding to more stores,
+  baby!</h1>
+  <p>That’s right! Our first-ever beauty brand, Scarlet Hill, is now available in more MRP stores across SA.<span> Hit the link to see where you can shop for
+      beauty and
+      extras.</span>
+  </p>
+  <a class="btn mrp-btn-white-bdr" href="#bottom" data-gtm-event="Campaign"
+    data-gtm-action="Landing Page" data-gtm-label="01_2020wk30_l_sh_ScarletHillBeauty">Show me </a>
+
+</div>
+<div class="hoverWrapper one ">
+<div class="row responsive">
+
+  <div class="col-sm-2"> 
+  
+    <a href="{{store url='beauty/scarlet-hill/shop-face'}}" data-gtm-event="Campaign"
+    data-gtm-action="Landing Page" data-gtm-label="01_2020wk30_l_sh_ScarletHillBeauty">
+
+    <img src="https://www.mrp.com/cdn/01/gender/2020/wk27/face.jpg" alt="">
+    </a>
+
+  <a class="Cta" href="{{store url='beauty/scarlet-hill/shop-face'}}" data-gtm-event="Campaign" 
+  data-gtm-action="Landing Page" data-gtm-label="01_2020wk30_l_sh_ScarletHillBeauty">face</a>
+  </div>
+
+  <div class="col-sm-2"> 
+    <a href="{{store url='beauty/scarlet-hill/shop-skincare'}}" data-gtm-event="Campaign"
+    data-gtm-action="Landing Page" data-gtm-label="01_2020wk30_l_sh_ScarletHillBeauty">
+
+    <img src="https://www.mrp.com/cdn/01/gender/2020/wk27/skincare.jpg" alt="">
+    </a>
+   <a class="Cta" href="{{store url='beauty/scarlet-hill/shop-skincare'}}" data-gtm-event="Campaign" 
+  data-gtm-action="Landing Page" data-gtm-label="01_2020wk30_l_sh_ScarletHillBeauty">skincare</a>
+  </div>
+
+  <div class="col-sm-2"> 
+    <a href="{{store url='beauty/scarlet-hill/shop-eyes'}}" data-gtm-event="Campaign"
+    data-gtm-action="Landing Page" data-gtm-label="01_2020wk30_l_sh_ScarletHillBeauty">
+    <img src="https://www.mrp.com/cdn/01/gender/2020/wk27/eyes.jpg" alt="">
+    </a>
+   <a class="Cta" href="{{store url='beauty/scarlet-hill/shop-eyes'}}" data-gtm-event="Campaign" 
+  data-gtm-action="Landing Page" data-gtm-label="01_2020wk30_l_sh_ScarletHillBeauty">eyes</a>
+  </div>
+
+  <div class="col-sm-2"> 
+    <a href="{{store url='beauty/scarlet-hill/shop-fragrances'}}" data-gtm-event="Campaign"
+    data-gtm-action="Landing Page" data-gtm-label="01_2020wk30_l_sh_ScarletHillBeauty">
+    <img src="https://www.mrp.com/cdn/01/gender/2020/wk27/fragrance.jpg" alt="">
+    </a>
+    <a class="Cta" href="{{store url='beauty/scarlet-hill/shop-fragrances'}}" data-gtm-event="Campaign" 
+  data-gtm-action="Landing Page" data-gtm-label="01_2020wk30_l_sh_ScarletHillBeauty">fragrance</a>
+  </div>
+
+  <div class="col-sm-2"> 
+    <a href="{{store url='beauty/scarlet-hill/shop-nails'}}" data-gtm-event="Campaign"
+    data-gtm-action="Landing Page" data-gtm-label="01_2020wk30_l_sh_ScarletHillBeauty">
+    <img src="https://www.mrp.com/cdn/01/gender/2020/wk27/nails.jpg" alt="">
+    </a>
+   <a class="Cta" href="{{store url='beauty/scarlet-hill/shop-nails'}}" data-gtm-event="Campaign" 
+  data-gtm-action="Landing Page" data-gtm-label="01_2020wk30_l_sh_ScarletHillBeauty">nails</a>
+  </div>
+
+  <div class="col-sm-2"> 
+    <a href="{{store url='beauty/scarlet-hill/shop-lips'}}" data-gtm-event="Campaign"
+    data-gtm-action="Landing Page" data-gtm-label="01_2020wk30_l_sh_ScarletHillBeauty">
+    <img src="https://www.mrp.com/cdn/01/gender/2020/wk27/lips.jpg" alt="">
+    </a>
+   <a class="Cta" href="{{store url='beauty/scarlet-hill/shop-lips'}}" data-gtm-event="Campaign" 
+  data-gtm-action="Landing Page" data-gtm-label="01_2020wk30_l_sh_ScarletHillBeauty">lips</a>
+  </div>
+
+  <div class="col-sm-2"> 
+    <a href="{{store url='beauty/scarlet-hill/shop-tools'}}" data-gtm-event="Campaign"
+    data-gtm-action="Landing Page" data-gtm-label="01_2020wk30_l_sh_ScarletHillBeauty">
+    <img src="https://www.mrp.com/cdn/01/gender/2020/wk27/tools.jpg" alt="">
+    </a>
+   <a class="Cta" href="{{store url='beauty/scarlet-hill/shop-tools'}}" data-gtm-event="Campaign" 
+  data-gtm-action="Landing Page" data-gtm-label="01_2020wk30_l_sh_ScarletHillBeauty">tools</a>
+  </div>
+
+  <div class="col-sm-2"> 
+    <a href="#bottom" data-gtm-event="Campaign"
+    data-gtm-action="Landing Page" data-gtm-label="01_2020wk30_l_sh_ScarletHillBeauty">
+    <img src="https://www.mrp.com/cdn/01/gender/2020/wk27/viewAll.jpg" alt="">
+    </a>
+   <a class="Cta" href="#bottom" data-gtm-event="Campaign" 
+  data-gtm-action="Landing Page" data-gtm-label="01_2020wk30_l_sh_ScarletHillBeauty">view All</a>
+  </div>
+
+  <div class="col-sm-2"> 
+    <a href="{{store url='beauty/scarlet-hill/shop-body'}}" data-gtm-event="Campaign"
+    data-gtm-action="Landing Page" data-gtm-label="01_2020wk30_l_sh_ScarletHillBeauty">
+    <img src="https://www.mrp.com/cdn/01/gender/2020/wk27/bath_body.jpg" alt="">
+    </a>
+   <a class="Cta" href="{{store url='beauty/scarlet-hill/shop-body'}}" data-gtm-event="Campaign" 
+  data-gtm-action="Landing Page" data-gtm-label="01_2020wk30_l_sh_ScarletHillBeauty">bath & body</a>
+  </div>
+
+</div>
+</div>
+
+
+<div class="hoverWrapper two ">
+
+  <div class="row">
+    <div class="col-xs-12">
+<h2>Taking over make-up shelves & the ‘Gram since 2019.</h2>
+<p>In case you missed it, we launched our first-ever beauty range, Scarlet Hill Beauty in late 2019. From eyeshadows to
+brushes, lipsticks and so much more, we’ve been keeping our beauty babes looking extra for loads less</p>
+</div>
+</div>
+
+</div>
+
+<div class="hoverWrapper three ">
+
+  <div class="row">
+    <div class="col-xs-12">
+<h2>BUT... WHO IS SCARLET HILL?</h2>
+<p>Is she Mr. Price’s daughter? Is she real? What’s her fave Netflix show? Simply put, Scarlet Hill is THAT girl. Your
+go-to for affordable beauty, pop culture chats and Sunday self-care sessions. She’s a babe that’s all about everyone and
+is always here for a good deal!
+</p>
+<a class="btn mrp-btn-white-bdr" href="https://www.mrp.com/en_za/beauty/scarlet-hill" data-gtm-event="Campaign"
+  data-gtm-action="Landing Page" data-gtm-label="01_2020wk30_l_sh_ScarletHillBeauty">Show me </a>
+</div>
+</div>
+
+</div>
+
+<div class="hoverWrapper four ">
+
+  <div class="row">
+    <div class="col-xs-12">
+      <a  href="https://www.mrp.com/en_za/beauty/scarlet-hill" data-gtm-event="Campaign"
+    data-gtm-action="Landing Page" data-gtm-label="01_2020wk30_l_sh_ScarletHillBeauty">
+<img src="https://www.mrp.com/media/wysiwyg/2020wk29/inspo/LUNGILE-min.jpg" alt="">
+</a>
+      </div>
+      </div>
+
+  </div>
+
+<div class="hoverWrapper five ">
+
+  <div class="row">
+    <div class="col-xs-12">
+      <blockquote>
+        <h2 class="hidden-xs">OUR HEAD MUA, LUNGILE THABETHE WILL SEE YOU NOW</h2>
+        <h2 class="visible-xs">OUR<br/> HEAD MUA,<br/> LUNGILE THABETHE<br/> WILL SEE YOU NOW</h2>
+      <p>Serving face, breaking down lash hacks and cutting creases is all in a day’s work for our <span>Make-Up Artist,
+      @lungilethabethe.</span>
+      </p></blockquote>
+   
+    </div>
+  </div>
+
+</div>
+
+<div class="hoverWrapper six ">
+  <div class="row"><div class="col-xs-12"><p>
+    Swipe through to see her most iconic <span>Scarlet Hill looks</span>
+  </p></div></div>
+  <div class="row responsive">
+    <div class="col-sm-2"> 
+      <a  href="https://www.youtube.com/watch?v=9RSdBs32xH4" target="_blank" data-gtm-event="Campaign"
+    data-gtm-action="Landing Page" data-gtm-label="01_2020wk30_l_sh_ScarletHillBeauty">
+      <img src="https://www.mrp.com/cdn/01/gender/2020/wk27/LaunchDay.jpg" alt="">
+      </a>
+      <a class="Cta" href="https://www.youtube.com/watch?v=9RSdBs32xH4" data-gtm-event="Campaign"
+        data-gtm-action="Landing Page" data-gtm-label="01_2020wk30_l_sh_ScarletHillBeauty">Launch Day</a>
+    </div>
+    <div class="col-sm-2"> 
+      <a  href="https://www.youtube.com/watch?v=3asBenPkGoA" data-gtm-event="Campaign"
+    data-gtm-action="Landing Page" data-gtm-label="01_2020wk30_l_sh_ScarletHillBeauty">
+      <img src="https://www.mrp.com/cdn/01/gender/2020/wk27/V-dayGlam.jpg" alt="">
+      </a>
+      <a class="Cta" href="https://www.youtube.com/watch?v=3asBenPkGoA" data-gtm-event="Campaign"
+        data-gtm-action="Landing Page" data-gtm-label="01_2020wk30_l_sh_ScarletHillBeauty">V-day Glam</a>
+    </div>
+    <div class="col-sm-2"> 
+      <a  href="https://www.youtube.com/watch?v=sNSTwRjtRc8" data-gtm-event="Campaign"
+    data-gtm-action="Landing Page" data-gtm-label="01_2020wk30_l_sh_ScarletHillBeauty">
+      <img src="https://www.mrp.com/cdn/01/gender/2020/wk27/GetGlossy.jpg" alt="">
+      </a>
+      <a class="Cta" href="https://www.youtube.com/watch?v=sNSTwRjtRc8" data-gtm-event="Campaign"
+        data-gtm-action="Landing Page" data-gtm-label="01_2020wk30_l_sh_ScarletHillBeauty">Get Glossy</a>
+    </div>
+    <div class="col-sm-2"> 
+      <a  href="https://www.youtube.com/watch?v=6hvZipaf8-o" data-gtm-event="Campaign"
+    data-gtm-action="Landing Page" data-gtm-label="01_2020wk30_l_sh_ScarletHillBeauty">
+      <img src="https://www.mrp.com/cdn/01/gender/2020/wk27/lockdownlooks.jpg" alt="">
+      </a>
+      <a class="Cta"  href="https://www.youtube.com/watch?v=6hvZipaf8-o" data-gtm-event="Campaign"
+        data-gtm-action="Landing Page" data-gtm-label="01_2020wk30_l_sh_ScarletHillBeauty">lockdown looks</a>
+    </div>
+  </div>
+</div>
+
+  </div>
+</div>
+</section> 
+
+
+<section id="Middle-to-bottom">
+  <div class="row">
+    <div class="col-xs-12">
+    <img class="img hidden-xs" alt="" src="https://www.mrp.com/media/wysiwyg/2020wk29/inspo/bg2.png" />
+    <img class="img  visible-xs" alt="" src="https://www.mrp.com/media/wysiwyg/2020wk29/inspo/bg2_.png" />
+      <div class="hoverWrapper one ">
+        <a  href="https://www.mrp.com/en_za/beauty/scarlet-hill" data-gtm-event="Campaign"
+          data-gtm-action="Landing Page" data-gtm-label="01_2020wk30_l_sh_ScarletHillBeauty">
+     <img class="hidden-xs" src="https://www.mrp.com/media/wysiwyg/2020wk29/inspo/Product.png" alt="">
+      <img class="visible-xs" src="https://www.mrp.com/media/wysiwyg/2020wk29/inspo/Product_.png" alt="">
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="bottom">
+  <div class="row">
+    <div class="col-xs-12">
+    <img class="img hidden-xs" alt="" src="https://www.mrp.com/media/wysiwyg/2020wk29/inspo/bg3.png" />
+    <img class="img  visible-xs" alt="" src="https://www.mrp.com/media/wysiwyg/2020wk29/inspo/bg3_.png" />
+      <div class="hoverWrapper one ">
+      <h2>READY TO SHOP SCARLET HILL IRL?</h2>
+      <p>Check out our list of stores that sell our full range of beauty and our stores that sell all our fun extras and tools.
+</p>
+      </div>
+    </div>
+  </div>
+<div class="row">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-6 col-xs-12 border-right">
+          <h4>BEAUTY</h4>
+          <p>Make-up, brushes, fragrances and loads more are waiting for you.</p>
+          <div id="accordion">
+            <!-- REGION -->
+            <h3>KwaZulu-Natal</h3>
+            <div >
+              <ol>
+                <li>MRP Greenacres</li>
+                <li>MRP Port Shepstone - Shelly Centre</li>
+                <li>MRP Chatsworth</li>
+                <li>MRP Ballito</li>
+                <li>MRP Kwa Mashu - Bridge City</li>
+                <li>MRP DBN - Workshop</li>
+                <li>MRP Pmb Church Street</li>
+                <li>MRP DBN - Broadwalk</li>
+                <li >MRP Amanzimtoti</li>
+                <li >MRP Durban West Street</li>
+                <li >MRP Gateway</li>
+                <li >MRP Midlands Mall</li>
+                <li >MRP Pavilion</li>
+              </ol>
+            </div>
+            <!-- REGION -->
+            <h3
+              >
+              Gauteng</h3>
+            <div >
+              <ol>
+                <li>MRP Rustenburg midtown</li>
+                <li>MRP Rustenburg midtown</li>
+                <li>MRP Kolenade Montana</li>
+                <li>MRP Mamelodi Mams Mall</li>
+                <li>MRP Centurion</li>
+                <li>MRP Rosebank Mall</li>
+                <li>MRP Jhb - Kerk Street</li>
+                <li>MRP Secunda Mall</li>
+                <li>MRP Ermelo</li>
+                <li>MRP Pretoria - Bloed Street Mall</li>
+                <li>MRP Thohoyandou - Thavhani Mall</li>
+                <li>MRP Messina</li>
+                <li>MRP Mafikeng Mall</li>
+                <li>MRP Tembisa - Birch Acres Mall</li>
+                <li>MRP Goldenwalk</li>
+                <li>MRP Nelspruit Promenade</li>
+                <li>MRP Nelspruit Ilanga Ctr</li>
+                <li>MRP Jhb Market Str</li>
+                <li>MRP Mabopane</li>
+                <li>MRP Soweto Jabulani</li>
+                <li>MRP Nelspruit Riverside</li>
+                <li>MRP Tzaneen</li>
+                <li>MRP Alberton City</li>
+                <li>MRP Soshanguve Crossing</li>
+                <li>MRP Hammanskraal</li>
+                <li>MRP Clearwater Mall</li>
+                <li>MRP Pretoria Church Str</li>
+                <li >MRP Benoni Lake</li>
+                <li >MRP Brooklyn</li>
+                <li >MRP Eastgate</li>
+                <li >MRP Eastrand Mall</li>
+                <li >MRP Fourways Mall</li>
+                <li >MRP Fourways</li>
+                <li >MRP Gezina</li>
+                <li >MRP Mall of Africa</li>
+                <li >MRP Melville</li>
+                <li >MRP Mall @ Carnival</li>
+                <li >MRP Mall Of The South</li>
+                <li >MRP Menlyn Centre</li>
+                <li >MRP Northgate</li>
+                <li >MRP Sammy Marks</li>
+                <li >MRP Sandton City</li>
+                <li >MRP Southgate</li>
+                <li >MRP Vanderbijl Vaal Mall</li>
+                <li >MRP Vereeniging T/rivers</li>
+                <li >MRP Witbank Highveld Mall</li>
+                <li >MRP Wonderpark</li>
+              </ol>
+            </div>
+            <!-- REGION -->
+            <h3
+              >
+              Limpopo</h3>
+            <div >
+              <ol>
+                <li >MRP Limpopo Mall</li>
+              </ol>
+            </div>
+            <!-- REGION -->
+            <h3
+              >
+              North West</h3>
+            <div >
+              <ol>
+                <li >MRP Potchefstroom</li>
+                <li >MRP Rustenburg Waterfall</li>
+              </ol>
+            </div>
+            <!-- REGION -->
+            <h3
+              >
+              Western Cape</h3>
+            <div >
+              <ol>
+                <li>MRP Tableview Bayside Mall</li>
+                <li>MRP Paarl Cbd</li>
+                <li>MRP Cape Gate</li>
+                <li>MRP Parow Centre</li>
+                <li >MRP Blue route Tokai</li>
+                <li >MRP Canal Walk</li>
+                <li >MRP Cavendish</li>
+                <li >MRP Kenilworth Sanlam</li>
+                <li >MRP Kenilworth - Access Park</li>
+                <li >MRP Paarl Mall</li>
+                <li >MRP Springbok</li>
+                <li >MRP V and A Waterfront</li>
+                <li >MRP Vangate Mall</li>
+              </ol>
+            </div>
+            <!-- REGION -->
+            <h3
+              >
+              Eastern Cape</h3>
+            <div >
+              <ol>
+                <li >PE - Baywest</li>
+                <li >Uitenhage Penford</li>
+                <li >PE - Walmer Park</li>
+              </ol>
+            </div>
+          </div>
+          <!-- ACCORDIOn STYLE -->
+   
+        </div>
+      <div class="col-sm-6 col-xs-12">
+        <h4>EXTRAS</h4>
+        <p>Come through and shop selected beauty faves including brushes,
+        hair tools & bath and body.</p>
+        <div id="accordion2">
+          <!-- REGION -->
+          <h3
+            >
+            KwaZulu-Natal</h3>
+          <div >
+            <ol>
+              <li >MRP Pinetown</li>
+              <li >MRP Richards Bay</li>
+              <li >MRP Ladysmith</li>
+              <li >MRP Newcastle</li>
+              <li >MRP Springfield</li>
+              <li>MRP Vryheid</li>
+              <li>MRP Newcastle Mall</li>
+              <li>MRP Umlazi</li>
+              <li>MRP Phoenix Plaza</li>
+              <li>MRP Kokstad</li>
+              <li>MRP Port Shepstone</li>
+              <li>MRP The Bluff</li>
+              <li>MRP Empangeni</li>
+            </ol>
+          </div>
+          <!-- REGION -->
+          <h3
+            >
+            Gauteng</h3>
+          <div >
+            <ol>
+              <li >MRP Soweto Maponya</li>
+              <li >MRP The Glen</li>
+              <li>MRP Hillbrow</li>
+              <li>MRP Krugersdorp - Cradlestone Mall</li>
+              <li>MRP Vereeniging CBD</li>
+              <li>MRP Midrand - Boulders Centre</li>
+              <li>MRP JHB - Carlton Centre</li>
+              <li>MRP Mamelodi Crossing</li>
+              <li>MRP Randfontein Village</li>
+              <li>MRP Forest Hill Mall</li>
+              <li>MRP Boksburg - Value Mall</li>
+              <li>MRP Soweto Dobsonville</li>
+              <li>MRP Vosloorus</li>
+              <li>MRP Woodmead Retail Park</li>
+              <li>MRP Wonderboom Junction</li>
+              <li>MRP The Grove</li>
+              <li>MRP Springs Blue Crane Mall</li>
+              <li>MRP Evaton Plaza</li>
+              <li>MRP Lenasia</li>
+              <li>MRP JHB - Newtown Junction</li>
+              <li>MRP Springs Cbd</li>
+              <li>MRP Tsakane</li>
+              <li>MRP Upington</li>
+                <li>MRP Soweto Protea Glen</li>
+                <li>MRP Kempton - CBD</li>
+                <li>MRP Melville</li>
+            </ol>
+          </div>
+          <!-- REGION -->
+          <h3
+            >
+            Limpopo</h3>
+          <div >
+            <ol>
+              <li >MRP Limpopo Mall</li>
+              <li>MRP Mall of the North</li>
+              <li>MRP Thohoyandou</li>
+              <li>MRP Groblersdal</li>
+              <li>MRP Mokopane</li>
+              <li>MRP Burgersfort-Tubaste Crossing</li>
+              <li>MRP Mahkado Crossing</li>
+              <li>MRP Jane Furse Crossing</li>
+              <li>MRP Polokwane Cbd</li>
+              <li>MRP Mankweng Paledi Mall</li>
+              <li>MRP Elim Mall</li>
+              <li>MRP Louis Trichardt</li>
+              <li>MRP Tzaneen Crossing</li>
+            </ol>
+          </div>
+          <!-- REGION -->
+          <h3
+            >
+            North West</h3>
+          <div >
+            <ol>
+              <li >MRP Potchefstroom</li>
+              <li >MRP Rustenburg Waterfall</li>
+              <li>MRP Klerksdorp City Mall</li>
+              <li>MRP Klerksdorp - Matlosana Mall</li>
+              <li>MRP Vryburg</li>
+            </ol>
+          </div>
+          <!-- REGION -->
+          <h3
+            >
+            Western Cape</h3>
+          <div >
+            <ol>
+              <li >MRP Tyger Valley</li>
+              <li >MRP Somerset Mall</li>
+              <li>MRP N1 City Mall</li>
+              <li>MRP CPT - Adderley street</li>
+              <li>MRP George - Garden Route</li>
+              <li>MRP Paarl Mall</li>
+              <li>MRP Worcester Cbd</li>
+              <li>MRP Mossel Bay Langerberg</li>
+              <li>MRP Worcester - Mount. Mill</li>
+              <li>MRP Vredenburg</li>
+              <li>MRP CPT - Golden Acre</li>
+              <li>MRP Vangate Mall</li>
+              <li>MRP George CBD</li>
+              <li>MRP Knysna</li>
+              <li>MRP Hermanus Whale Coast Mall</li>
+              <li>MRP Somerset West Olive Grove</li>
+              <li>MRP Bellville Cbd</li>
+              <li>MRP Ceres</li>
+              <li>MRP Oudtshoorn</li>
+              <li>MRP Stellenbosch</li>
+              <li>MRP Khayelitsha</li>
+              <li>MRP Mitchells Plain Westgate</li>
+              <li>MRP Guguletu</li>
+              <li>MRP Mossel Bay Mall</li>
+              <li>MRP Plettenberg Bay</li>
+              <li>MRP Phillippi The Junction</li>
+              
+            </ol>
+          </div>
+          <!-- REGION -->
+          <h3>
+            Eastern Cape</h3>
+          <div >
+            <ol>
+              <li >MRP Hemmingways</li>
+              <li >MRP Uitenhage Penford</li>
+              <li >MRP PE - Walmer Park</li>
+              <li>MRP Mtatha Circus Triangle</li>
+              <li>MRP Mtatha 2</li>
+              <li>MRP Queenstown Nonesi Centre</li>
+              <li>MRP East London Beacon Bay</li>
+              <li>MRP Uitenhage Cbd</li>
+              <li>MRP King Williams Town</li>
+              <li>MRP Queenstown</li>
+              <li>MRP New Bighton - Kinako</li>
+              <li>MRP Mtatha - Bt Ngebs</li>
+              <li>MRP Matatiele</li>
+              <li>MRP East London Union St</li>
+              <li>MRP Jeffreys Bay</li>
+            </ol>
+          </div>
+
+
+            <h3>
+              Mpumalanga</h3>
+            <div>
+              <ol>
+                <li>MRP Hazyview</li>
+                <li>MRP Malelane</li>
+                <li>MRP Middelburg Mall</li>
+                <li>MRP Acornhoek Plaza</li>
+                <li>MRP Kwamhlanga - Phola Park</li>
+                <li>MRP Tonga Mall</li>
+                <li>MRP Nkomazi Plaza</li>
+                <li>MRP Piet Retief</li>
+              
+              </ol>
+            </div>
+
+            <h3>
+              Free State</h3>
+            <div>
+              <ol>
+                <li>MRP Welkom Goldfields</li>
+                <li>MRP Loch Logan</li>
+                <li>MRP PE - Walmer Park</li>
+                <li>MRP Phuthaditjhaba</li>
+              </ol>
+            </div>
+
+
+
+
+               <h3>Northern Cape</h3>
+                  <div>
+                      <ol>
+                        <li>MRP Kimberley Diamond Pavillion</li>
+                        <li>MRP Kuruman</li>
+                        <li>MRP Kimberley Game Centr</li>
+                        <li>MRP Hartswater</li>
+                      </ol>
+                </div>
+
+        </div>
+        <!-- ACCORDIOn STYLE -->
+        <!-- REGION -->
+     
+        </div>
+        <!-- ACCORDIOn STYLE -->
+      </div>
+      </div>
+    </div>
+    </section>
+
+</div>
+<script type="text/javascript" src="https://www.mrp.com/cdn/01/assets/resources/slick/js/slick.min.js"></script>
+<link href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css" rel="stylesheet" /> 
+<script type="text/javascript" src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script> 
+
+<script type="text/javascript"> 
+
+jQuery('.responsive').slick({
+    dots: false,
+    infinite: true,
+      autoplay: true,
+  autoplaySpeed: 5000,
+    speed: 300,
+    arrows: true,
+            prevArrow: '<img class="ArrPrev"  " src="https://www.mrp.com/cdn/01/gender/2020/wk27/Polygon8.png"/>',
+            nextArrow: '<img class="ArrNext" " src="https://www.mrp.com/cdn/01/gender/2020/wk27/Polygon7.png"/>',
+    slidesToShow: 5,
+    slidesToScroll: 1,
+    responsive: [
+      {
+        breakpoint: 480,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 2
+        }
+      }
+    ]
+  });
+  jQuery(function () {
+      jQuery("#accordion ,#accordion2 ").accordion({
+        heightStyle: "content"
+
+      });
+    });
+</script>
+{{widget type="cms/widget_block" template="cms/widget/static_block/default.phtml" block_id="27487"}}
+{{widget type="cms/widget_block" template="cms/widget/static_block/default.phtml" block_id="32331"}}
+
+
+  </body>
+</html>
